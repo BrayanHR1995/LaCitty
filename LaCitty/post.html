@@ -1,0 +1,408 @@
+<html>
+    <head>
+        <title>LaCitty</title>
+        <link href="css\bootstrap.css" rel='stylesheet' type='text/css'>
+        <!-- Custom Theme files -->
+        <link href="css\style-radio.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css\style.css" rel="stylesheet" type="text/css" media="all">
+        <!-- Custom Theme files -->
+        <script src="js\jquery.min.js"></script>
+        <script type="text/javascript" src="js\js-radio.js"></script>
+        <script type="text/javascript" src="js\jquery.leanModal.min.js"></script>
+        <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">--> 
+        <!-- Custom Theme files -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./js/bootstrap.min.js"></script>
+       
+    </head>
+    <body>
+        <div class="container">
+            <div class="news-paper">
+                    <div class="header clearfix">
+                      
+                        <div class="foo">
+                            <div class="logo" >
+                                <a href="#"><img src="images/logo.png" style="max-height: 100px;" alt="" /></a>
+                                
+                            </div>
+                        </div>
+                        <div class="foo" style=" max-height: 100px;float: right;margin-right: 25px;">
+                            <ul id="barra" style="max-width: 738px;">
+                                <li class="drop v1" id="item_1"></li>
+                                <li class="drop v2" id="item_2"></li>
+                                <li class="drop v1" id="item_3"></li>
+                                <li class="drop v1" id="item_4"></li>
+                                <li class="drop v1" id="item_5"></li>
+                                <li class="drop v2" id="item_6"></li>
+                                <li class="drop v1" id="item_7"></li>
+                                <li class="drop v1" id="item_8"></li>
+                                <li class="drop v2" id="item_9"></li>
+                                <li class="drop v1" id="item_10"></li>
+                                <li class="drop v1" id="item_11"></li>
+                                <li class="drop v2" id="item_12"></li>
+                                <li class="drop v1" id="item_13"></li>
+                                <li class="drop v1" id="item_14"></li>
+                                <li class="drop v1" id="item_15"></li>
+                                <li class="drop v2" id="item_16"></li>
+                                <li class="drop v1" id="item_17"></li>
+                                <li class="drop v1" id="item_18"></li>
+                                <li class="drop v2" id="item_19"></li>
+                                <li class="drop v1" id="item_20"></li>
+                                <li class="drop v1" id="item_21"></li>
+                                <li class="drop v1" id="item_22"></li>
+                                <li class="drop v2" id="item_23"></li>
+                                <li class="drop v1" id="item_24"></li>
+                            </ul>
+                             
+                        </div>
+                        <div class="foo" style="float: right;">
+                          <img src="img/radio.png" style="max-width: 778px;" class="desvanecer" />
+                        </div>
+
+    
+                    </div>
+
+
+                    <nav class="navbar navbar-default pokemon" role="navigation" onmouseover="borra(this)">
+                        <!-- El logotipo y el icono que despliega el menú se agrupan
+                             para mostrarlos mejor en los dispositivos móviles -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Desplegar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="#">Secciones</a>
+                        </div>
+                      
+                        <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                             otro elemento que se pueda ocultar al minimizar la barra -->
+                        <div class="navbar-collapse navbar-ex1-collapse collapse" style="height: 1px;">
+                          <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Noticias</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Lugares</a></li>
+                            <li><a href="#">Promociones</a></li>
+
+                          </ul>
+
+                        </div>
+                      </nav>
+                      
+                    <div id="menu1" class="menu-strip" onmouseover="borra(this)">
+                        <ul id="ul1">           
+                            <li class="active"><a href="index.html">Noticias</a></li>
+                            <li><a href="index.html">Eventos</a></li>
+                            <li><a href="index.html">Lugares</a></li>
+                            <li><a href="index.html">Promociones</a></li> 
+                        </ul>
+                    </div>
+                    <style>
+                        #menu1 {
+                            background-color: #f5f5f5;
+                        }
+
+                        #ul1 li {
+                            margin-top: -7px;
+                            float: left;
+                            width: 23%;
+                        }
+                        #ul1 li a{
+                            position: relative;
+                            color: #000000;
+                            text-align: center;
+                        }
+                        #ul1 li a:hover {
+                            background-color: #040696;
+                            color:#eeeeee;
+                        }
+                        .active a{
+                            border-bottom: 3px solid #0037cf;
+                            border-radius: 2.5px;
+                        }
+                    </style>
+                    
+                            <ul id="ul2" onmouseover="borra(this)">           
+                                <li><a href="index.html">Nuevo</a></li>
+                                <li><a href="index.html">Educacion</a></li>
+                                <li><a href="index.html">Seguridad</a></li>
+                                <li><a href="index.html">Economia</a></li> 
+                                <li><a href="index.html">Cultura</a></li> 
+                                <li><a href="index.html">Infraestructura</a></li>
+                                <li><a href="index.html">Movilidad</a></li> 
+                                <li><a href="index.html">Deportes</a></li> 
+                                <li><a href="index.html">Salud</a></li> 
+                                <li><a href="index.html">Servicios Publicos</a></li> 
+                            </ul>
+                   
+                    <style>
+                        #ul2 {
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            overflow: hidden;
+                            background-color: white
+                        }
+
+                        #ul2 li {
+                            float: left;
+                        }
+
+                        #ul2 li a {
+                            position: relative;
+                            display: block;
+                            color: #040696;
+                            text-align: center;
+                            padding: 5px 20px;
+                            text-decoration: none;
+                        }
+
+                        /* Change the link color to #111 (black) on hover */
+                        #ul2 li a:hover {
+                            background-color: #111;
+                            color:#eeeeee;
+                        }
+                    </style>
+
+<div class="front-overlay-arrows">
+        <div class="front-arrow-wrapper">
+          <a href="https://www.usatoday.com/weather/" rel="prev" data-ht="frontprev" id="cards-prev-link" class="front-arrow-weather" style="visibility: visible;">
+            <div class="cards-nav-icon"></div>
+            <div class="front-overlay-prev-arrows-anchor weather-theme-bg">
+              <div class="front-prev-story-content-holder">
+                <p class="front-prev-arrow-label">weather</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.usatoday.com/news/" rel="next" data-ht="frontnext" id="cards-next-link" class="front-arrow-news" style="visibility: visible;">
+            <div class="cards-nav-icon"></div>
+            <div class="front-overlay-next-arrows-anchor news-theme-bg">
+              <div class="front-next-story-content-holder">
+                <p class="front-next-arrow-label">news</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+                   <div class="movie-main-content"> 
+   
+                      <div class="col-md-9 total-news" style="text-align: justify;">
+                                
+                        <div class="grids">
+                          <div class="msingle-grid box">
+                            <div class="grid-header">
+                              <h3>En Bienestar Familiar estan los jovenes de Villavicencio encontrados en Vistahermosa (Meta). </h3>
+                              <ul>
+                              <li><span>Publicado por Admin el domingo, marzo 05,2013</span></li>
+                              <li><a href="#">0 comentarios</a></li>
+                              </ul>
+                            </div>
+                       
+                            <div class="singlepage">
+                              <a href="#"><img src="images\m1.jpg"></a>
+                              <br>
+                              <div class="text-right">
+                                <a class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"><span class="fa fa-facebook"></span></a>
+                                <a class="btn btn-social-icon btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-google']);"><span class="fa fa-google"></span></a>
+                                <a class="btn btn-social-icon btn-instagram" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-instagram']);"><span class="fa fa-instagram"></span></a>
+                                <a class="btn btn-social-icon btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-linkedin']);"><span class="fa fa-linkedin"></span></a>
+                                <a class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);"><span class="fa fa-twitter"></span></a>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<a href="#">...</a></p>
+                              <div class="clearfix"> </div>
+                            </div>
+                            <div class="single">
+                              <h3>Lorem Ipsum IS A TENSE, TAUT, COMPELLING THRILLER</h3>
+                              <p>STORY:<i> Meera and Arjun drive down Lorem Ipsum - can they survive a highway from hell?</i></p>
+                            </div>
+                            <div class="story-review">
+                              <h4>Analisis:</h4>
+                              <p>So,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+                          </div>
+                        
+                            <div class="clearfix"> </div>
+                        </div>
+
+                        <div class="content-form">
+                           <h3>Comentarios</h3>
+                            <div id="disqus_thread"></div>
+                            <script>
+
+                            /**
+                            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                            
+                            var disqus_config = function () {
+                            this.page.url = 'http://lector.ytnofan.com';  // Replace PAGE_URL with your page's canonical URL variable
+                            };
+                            
+                            (function() { // DON'T EDIT BELOW THIS LINE
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://ytnofan.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                            })();
+                            </script>
+                        </div>
+                      </div>  
+                      <div class="col-md-3 side-bar">
+                        <div class="popular mpopular">
+                          <div class="main-title-head">
+                            <h5>Historias Top</h5>
+                            <div class="clearfix"></div>
+                          </div>    
+                          <div class="popular-news" style="border-style: groove; border-width: 4px;padding-bottom: 5px">
+                            <table class="table table-responsive table-striped" style="font-size: 12px">
+                              <tbody>
+                                  <tr>
+                                      <td>
+                                        <b>1.</b> Lorem ipsum dolor Lorem...
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                        <b>2.</b> Lorem ipsum dolor Lorem...
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                        <b>3.</b> Lorem ipsum dolor Lorem...
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                        <b>4.</b> Lorem ipsum dolor Lorem...
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td style="border-bottom: 1px solid;">
+                                        <b>5.</b> Lorem ipsum dolor Lorem...
+                                      </td>
+                                  </tr>
+                              </tbody>
+                            </table>
+                            <a class="more" href="#">Más  +</a>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="grid-top" style="text-align: justify;">
+                          <h4>Últimas Noticias</h4>
+                          <ul>
+                            <div class="might-grid">
+                              <div class="grid-might">
+                                <a href="single.html"><img src="images\mi.jpg" class="img-responsive" alt=""> </a>
+                              </div>
+                              <div class="might-top">
+                                <p>Lorem Ipsum is simply typesetting industry.</p> 
+                                <a href="single.html">Lorem Ipsum <i> </i></a>
+                              </div>
+                              <div class="clearfix"></div>
+                            </div>
+                            <li><a href="single.html">Lorem Ipsum has been the industry's text ever since the 1500s</a> </li>
+                            <li><a href="single.html">When an unknown printer took a galley scrambled it to make a type</a> </li>
+                            <li><a href="single.html">It has survived not, but also the leap into electronic typesetting</a> </li>
+                            <li><a href="single.html">Letraset sheets containing Lorem Ipsum  with desktop publishing </a> </li>
+                            <li><a href="single.html">Software like Aldus versionsof Lorem Ipsum.</a> </li>
+                          </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="might">
+                          <h4 style="float: none;">Recomendado</h4>
+                          <div class="might-grid">
+                            <div class="grid-might">
+                              <a href="single.html"><img src="images\mi.jpg" class="img-responsive" alt=""> </a>
+                            </div>
+                            <div class="might-top">
+                              <p>Lorem Ipsum is simply typesetting industry.</p> 
+                              <a href="single.html">Lorem Ipsum <i> </i></a>
+                            </div>
+                          <div class="clearfix"></div>
+                          </div>
+                          <div class="might-grid">
+                            <div class="grid-might">
+                              <a href="single.html"><img src="images\mi1.jpg" class="img-responsive" alt=""> </a>
+                            </div>
+                            <div class="might-top">
+                              <p>Lorem Ipsum is simply typesetting industry.</p> 
+                              <a href="single.html">Lorem Ipsum <i> </i></a>
+                            </div>
+                          <div class="clearfix"></div>
+                          </div>
+                          <div class="might-grid">
+                            <div class="grid-might">
+                              <a href="single.html"><img src="images\mi2.jpg" class="img-responsive" alt=""> </a>
+                            </div>
+                            <div class="might-top">
+                              <p>Lorem Ipsum is simply typesetting industry.</p> 
+                              <a href="single.html">Lorem Ipsum <i> </i></a>
+                            </div>
+                          <div class="clearfix"></div>
+                          </div>
+                          <div class="might-grid">
+                            <div class="grid-might">
+                              <a href="single.html"><img src="images\mi3.jpg" class="img-responsive" alt=""> </a>
+                            </div>
+                            <div class="might-top">
+                              <p>Lorem Ipsum is simply typesetting industry.</p> 
+                              <a href="single.html">Lorem Ipsum <i> </i></a>
+                            </div>
+                          <div class="clearfix"></div>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="clearfix"></div>
+                  </div>
+                </div>
+                <footer id="footer">
+                  <div class="footer_top">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="footer_widget wow fadeInLeftBig">
+                          <h2>Redes Sociales</h2>
+
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="footer_widget wow fadeInDown">
+                          <h2>Secciones</h2>
+                          <ul class="tag_nav">
+                            <li><a href="#">Noticias</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Lugares</a></li>
+                            <li><a href="#">Promociones</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="footer_widget wow fadeInRightBig">
+                          <h2>Categorias de Noticias</h2>
+                          <ul class="tag_nav">
+                              <li><a href="#">Nuevo</a></li>
+                              <li><a href="#">Educacion</a></li>
+                              <li><a href="#">Seguridad</a></li>
+                              <li><a href="#">Economia</a></li>
+                              <li><a href="#">Cultura</a></li>
+                              <li><a href="#">Infraestructura</a></li>
+                              <li><a href="#">Movilidad</a></li>
+                              <li><a href="#">Deportes</a></li>
+                              <li><a href="#">Salud</a></li>
+                              <li><a href="#">Servicios Publicos</a></li>
+                            </ul> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer_bottom">
+
+                    <p class="developer">Lacharme S.A.S</p>
+                  </div>
+                </footer>
+
+        </div>
+    <script id="dsq-count-scr" src="//ytnofan.disqus.com/count.js" async></script>
+    </body>
+</html>
