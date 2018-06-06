@@ -1,0 +1,655 @@
+﻿<html>
+    <head>
+        <title>LaCitty</title>
+        <link href="css\bootstrap.css" rel='stylesheet' type='text/css'>
+        <!-- Custom Theme files -->
+        <link href="css\style-radio.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css\style.css" rel="stylesheet" type="text/css" media="all">
+        <!-- Custom Theme files -->
+        <script src="js\jquery.min.js"></script>
+        <script type="text/javascript" src="js\js-radio.js"></script>
+        <script type="text/javascript" src="js\jquery.leanModal.min.js"></script>
+        <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">--> 
+        <!-- Custom Theme files -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./js/bootstrap.min.js"></script>
+       
+    </head>
+    <body>
+        <div class="container">
+            <div class="news-paper">
+                    <div class="header clearfix">
+                      
+                       	<div class="foo">
+                            <div class="logo" >
+                                <a href="#"><img src="images/logo.png" style="max-height: 100px;" alt="" /></a>
+                                
+                            </div>
+                        </div>
+                        <div class="foo" style=" max-height: 100px;float: right;margin-right: 25px;">
+                            <ul id="barra" style="max-width: 738px;">
+                                <li class="drop v1" id="item_1"></li>
+                                <li class="drop v2" id="item_2"></li>
+                                <li class="drop v1" id="item_3"></li>
+                                <li class="drop v1" id="item_4"></li>
+                                <li class="drop v1" id="item_5"></li>
+                                <li class="drop v2" id="item_6"></li>
+                                <li class="drop v1" id="item_7"></li>
+                                <li class="drop v1" id="item_8"></li>
+                                <li class="drop v2" id="item_9"></li>
+                                <li class="drop v1" id="item_10"></li>
+                                <li class="drop v1" id="item_11"></li>
+                                <li class="drop v2" id="item_12"></li>
+                                <li class="drop v1" id="item_13"></li>
+                                <li class="drop v1" id="item_14"></li>
+                                <li class="drop v1" id="item_15"></li>
+                                <li class="drop v2" id="item_16"></li>
+                                <li class="drop v1" id="item_17"></li>
+                                <li class="drop v1" id="item_18"></li>
+                                <li class="drop v2" id="item_19"></li>
+                                <li class="drop v1" id="item_20"></li>
+                                <li class="drop v1" id="item_21"></li>
+                                <li class="drop v1" id="item_22"></li>
+                                <li class="drop v2" id="item_23"></li>
+                                <li class="drop v1" id="item_24"></li>
+                            </ul>
+                             
+                        </div>
+                       	<div class="foo" style="float: right;">
+                       		<img src="img/radio.png" style="max-width: 778px;" class="desvanecer" />
+                       	</div>
+
+    
+                    </div>
+
+
+                    <nav class="navbar navbar-default pokemon" role="navigation" onmouseover="borra(this)">
+                        <!-- El logotipo y el icono que despliega el menú se agrupan
+                             para mostrarlos mejor en los dispositivos móviles -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Desplegar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="#">Secciones</a>
+                        </div>
+                      
+                        <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                             otro elemento que se pueda ocultar al minimizar la barra -->
+                        <div class="navbar-collapse navbar-ex1-collapse collapse" style="height: 1px;">
+                          <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Noticias</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Lugares</a></li>
+                            <li><a href="#">Promociones</a></li>
+
+                          </ul>
+
+                        </div>
+                      </nav>
+                      
+                    <div id="menu1" class="menu-strip" onmouseover="borra(this)">
+                        <ul id="ul1">           
+                            <li class="active"><a href="index.html">Noticias</a></li>
+                            <li><a href="index.html">Eventos</a></li>
+                            <li><a href="index.html">Lugares</a></li>
+                            <li><a href="index.html">Promociones</a></li> 
+                        </ul>
+                    </div>
+                    <style>
+                        #menu1 {
+                            background-color: #f5f5f5;
+                        }
+
+                        #ul1 li {
+                            margin-top: -7px;
+                            float: left;
+                            width: 23%;
+                        }
+                        #ul1 li a{
+                            position: relative;
+                            color: #000000;
+                            text-align: center;
+                        }
+                        #ul1 li a:hover {
+                            background-color: #040696;
+                            color:#eeeeee;
+                        }
+                        .active a{
+                            border-bottom: 3px solid #0037cf;
+                            border-radius: 2.5px;
+                        }
+                    </style>
+                    
+                            <ul id="ul2" onmouseover="borra(this)">           
+                                <li><a href="index.html">Nuevo</a></li>
+                                <li><a href="index.html">Educacion</a></li>
+                                <li><a href="index.html">Seguridad</a></li>
+                                <li><a href="index.html">Economia</a></li> 
+                                <li><a href="index.html">Cultura</a></li> 
+                                <li><a href="index.html">Infraestructura</a></li>
+                                <li><a href="index.html">Movilidad</a></li> 
+                                <li><a href="index.html">Deportes</a></li> 
+                                <li><a href="index.html">Salud</a></li> 
+                                <li><a href="index.html">Servicios Publicos</a></li> 
+                            </ul>
+                   
+                    <style>
+                        #ul2 {
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            overflow: hidden;
+                            background-color: white
+                        }
+
+                        #ul2 li {
+                            float: left;
+                        }
+
+                        #ul2 li a {
+                            position: relative;
+                            display: block;
+                            color: #040696;
+                            text-align: center;
+                            padding: 5px 20px;
+                            text-decoration: none;
+                        }
+
+                        /* Change the link color to #111 (black) on hover */
+                        #ul2 li a:hover {
+                            background-color: #111;
+                            color:#eeeeee;
+                        }
+                    </style>
+
+<div class="front-overlay-arrows">
+        <div class="front-arrow-wrapper">
+          <a href="https://www.usatoday.com/weather/" rel="prev" data-ht="frontprev" id="cards-prev-link" class="front-arrow-weather" style="visibility: visible;">
+            <div class="cards-nav-icon"></div>
+            <div class="front-overlay-prev-arrows-anchor weather-theme-bg">
+              <div class="front-prev-story-content-holder">
+                <p class="front-prev-arrow-label">weather</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.usatoday.com/news/" rel="next" data-ht="frontnext" id="cards-next-link" class="front-arrow-news" style="visibility: visible;">
+            <div class="cards-nav-icon"></div>
+            <div class="front-overlay-next-arrows-anchor news-theme-bg">
+              <div class="front-next-story-content-holder">
+                <p class="front-next-arrow-label">news</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+                    <div class="container">
+                        <div class="main-content">
+
+                                <div class="col-md-8 total-news">
+                                        <div class="slider">
+                                                <script src="js\responsiveslides.min.js"></script>
+                                                 <script>
+                                                    $(function () {
+                                                      $("#conference-slider").responsiveSlides({
+                                                        auto: true,
+                                                        manualControls: '#slider3-pager',
+                                                      });
+                                                    });
+                                                </script>
+                                                 <div class="conference-slider">
+                                                    <!-- Slideshow 3 -->
+                                                    <ul class="conference-rslide" id="conference-slider">
+                                                      <li><img src="images\c22.jpg" alt=""></li>
+                                                      <li><img src="images\c1.jpg" alt=""></li>
+                                                      <li><img src="images\c33.jpg" alt=""></li>
+                                                      <li><img src="images\c44.jpg" alt=""></li>
+                                                    </ul>
+                                                    <!-- Slideshow 3 Pager -->
+                                                    <ul id="slider3-pager">
+                                                      <li><a href="#"><img src="images\c22.jpg" alt=""></a></li>
+                                                      <li><a href="#"><img src="images\c1.jpg" alt=""></a></li>
+                                                      <li><a href="#"><img src="images\c33.jpg" alt=""></a></li>
+                                                      <li><a href="#"><img src="images\c44.jpg" alt=""></a></li>
+                                                    </ul>
+                                                    <div class="breaking-news-title">
+                                                            <p>Ultimas Noticias La Citty </p>
+                                                        </div>
+                                                </div> 
+                                                
+                                        </div>
+                                        <div class="gallery">
+                                            <div class="main-title-head">
+                                                <h3>Galeria</h3>
+                                                <a href="#">Más +</a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="gallery-images">
+                                                <div class="course_demo1">
+                                                  <ul id="flexiselDemo1">	
+                                                     <li>
+                                                        <a href="single.html"><img src="images\g1.jpg" alt=""></a>						
+                                                     </li>
+                                                     <li>
+                                                       <a href="single.html"><img src="images\g2.jpg" alt=""></a>
+                                                      </li>	
+                                                     <li>
+                                                        <a href="single.html"><img src="images\g3.jpg" alt=""></a>
+                                                     </li>	
+                                                     <li>
+                                                        <a href="single.html"><img src="images\g4.jpg" alt=""></a>
+                                                     </li>	
+                                                 </ul>
+                                             </div>
+                                             <link rel="stylesheet" href="css\flexslider.css" type="text/css" media="screen">
+                                                <script type="text/javascript">
+                                             $(window).load(function() {
+                                                $("#flexiselDemo1").flexisel({
+                                                    visibleItems: 3,
+                                                    animationSpeed: 1000,
+                                                    autoPlay: true,
+                                                    autoPlaySpeed: 3000,    		
+                                                    pauseOnHover: true,
+                                                    enableResponsiveBreakpoints: true,
+                                                    responsiveBreakpoints: { 
+                                                        portrait: { 
+                                                            changePoint:480,
+                                                            visibleItems: 2
+                                                        }, 
+                                                        landscape: { 
+                                                            changePoint:640,
+                                                            visibleItems: 2
+                                                        },
+                                                        tablet: { 
+                                                            changePoint:768,
+                                                            visibleItems: 3
+                                                        }
+                                                    }
+                                                });
+                                                
+                                             });
+                                              </script>
+                                             <script type="text/javascript" src="js\jquery.flexisel.js"></script>
+                                         </div>
+                                         <div class="course_demo1">
+                                                  <ul id="flexiselDemo">	
+                                                     <li>
+                                                        <a href="single.html"><img src="images\g4.jpg" alt=""></a>							
+                                                     </li>
+                                                     <li>
+                                                        <a href="single.html"><img src="images\g5.jpg" alt=""></a>
+                                                      </li>	
+                                                     <li>
+                                                        <a href="single.html"><img src="images\g6.jpg" alt=""></a>
+                                                     </li>	
+                                                     <li>
+                                                        <a href="single.html"><img src="images\g1.jpg" alt=""></a>
+                                                     </li>	
+                                                 </ul>
+                                             </div>
+                                             <link rel="stylesheet" href="css\flexslider.css" type="text/css" media="screen">
+                                                <script type="text/javascript">
+                                             $(window).load(function() {
+                                                $("#flexiselDemo").flexisel({
+                                                    visibleItems: 3,
+                                                    animationSpeed: 1000,
+                                                    autoPlay: true,
+                                                    autoPlaySpeed: 3000,    		
+                                                    pauseOnHover: true,
+                                                    enableResponsiveBreakpoints: true,
+                                                    responsiveBreakpoints: { 
+                                                        portrait: { 
+                                                            changePoint:480,
+                                                            visibleItems: 2
+                                                        }, 
+                                                        landscape: { 
+                                                            changePoint:640,
+                                                            visibleItems: 2
+                                                        },
+                                                        tablet: { 
+                                                            changePoint:768,
+                                                            visibleItems: 3
+                                                        }
+                                                    }
+                                                });
+                                                
+                                             });
+                                              </script>
+                                             <script type="text/javascript" src="js\jquery.flexisel.js"></script>
+                
+                                            </div>
+                                        <div class="posts">
+                                                <div class="left-posts">
+                                                        <div class="world-news">
+                                                                <!---728x90-->
+                                                            <!--<script src='//publisher.eboundservices.com/dynamicAds/dynamicScript.js'></script>
+                                                            <div style='margin: 0 auto;text-align: center;margin-top: 5px;'>
+                                                                <script>
+                                                                var allowedNumberOfEboundDynamicAdds = 4;
+                                                                var sizesEboundDynamicAdsDesktop = ['728x90'];
+                                                                var sizesEboundDynamicAdsTablet = ['728x90'];
+                                                                var sizesEboundDynamicAdsMobile = ['320x100'];
+                                                                eboundAdsTagByDevice(sizesEboundDynamicAdsDesktop,sizesEboundDynamicAdsTablet,sizesEboundDynamicAdsMobile, 'ebound_header_tag');
+                                                                
+                                                                if(typeof user_tag_config == 'undefined'){
+                                                                    var user_tag_config = {};
+                                                                }
+                                                                user_tag_config['ebound_header_tag'] = {};
+                                                                user_tag_config['ebound_header_tag']['desktop'] = {};
+                                                                user_tag_config['ebound_header_tag']['desktop']['cpm'] = '';
+                                                                user_tag_config['ebound_header_tag']['desktop']['adsCode'] = '';
+                                                                user_tag_config['ebound_header_tag']['tablet'] = {};
+                                                                user_tag_config['ebound_header_tag']['tablet']['cpm'] = '';
+                                                                user_tag_config['ebound_header_tag']['tablet']['adsCode'] = '';
+                                                                user_tag_config['ebound_header_tag']['mobile'] = {};
+                                                                user_tag_config['ebound_header_tag']['mobile']['cpm'] = '';
+                                                                user_tag_config['ebound_header_tag']['mobile']['adsCode'] = '';
+                                                                </script>-->
+                                                            </div>
+                                                            <div class="main-title-head">
+                                                                <h3>Ultimas Noticias</h3>
+                                                                <a href="singlepage.html">Más +</a>
+                                                                <div class="clearfix"></div>
+                                                            </div>
+                                                            <div class="world-news-grids">
+                                                                <div class="world-news-grid">
+                                                                    <img src="images\n1.jpg" alt="">
+                                                                    <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                    <a href="singlepage.html">Leer Más</a>
+                                                                </div>
+                                                                <div class="world-news-grid">
+                                                                    <img src="images\n2.jpg" alt="">
+                                                                    <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                    <a href="singlepage.html">Leer Más</a>
+                                                                </div>
+                                                                <div class="world-news-grid">
+                                                                    <img src="images\n3.jpg" alt="">
+                                                                    <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                    <a href="singlepage.html">Leer Más</a>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+    
+                                                <div class="right-posts">
+    
+
+                                                    </div>
+                                                    <div class="right-posts">
+                                                        <div class="desk-grid">
+                                                            <h3>Periodistas</h3>
+                                                            <div class="desk">
+                                                                <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit </a>
+                                                                <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                <p><a href="singlepage.html">Leer Más</a><span>3 hours ago</span></p>
+                                                            </div>
+                                                            <div class="desk">
+                                                                <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit </a>
+                                                                <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                <p><a href="singlepage.html">Leer Más</a><span>3 hours ago</span></p>
+                                                            </div>
+                                                            <div class="desk">
+                                                                <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit </a>
+                                                                <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                <p><a href="singlepage.html">Leer Más</a><span>3 hours ago</span></p>
+                                                            </div>
+                                                            <div class="desk">
+                                                                <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit </a>
+                                                                <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                <p><a href="singlepage.html">Leer Más</a><span>3 hours ago</span></p>
+                                                            </div>
+                                                            <a class="more" href="singlepage.html">Más +</a>
+                                                        </div>
+         
+                                                    </div>
+                                                    
+                                                    <!---->
+                                                    <div class="posts">
+                                                        <div class="left-posts">
+                                                                <div class="world-news">
+                                                                        <!---728x90-->
+                                                                    <!--<script src='//publisher.eboundservices.com/dynamicAds/dynamicScript.js'></script>
+                                                                    <div style='margin: 0 auto;text-align: center;margin-top: 5px;'>
+                                                                        <script>
+                                                                        var allowedNumberOfEboundDynamicAdds = 4;
+                                                                        var sizesEboundDynamicAdsDesktop = ['728x90'];
+                                                                        var sizesEboundDynamicAdsTablet = ['728x90'];
+                                                                        var sizesEboundDynamicAdsMobile = ['320x100'];
+                                                                        eboundAdsTagByDevice(sizesEboundDynamicAdsDesktop,sizesEboundDynamicAdsTablet,sizesEboundDynamicAdsMobile, 'ebound_header_tag');
+                                                                        
+                                                                        if(typeof user_tag_config == 'undefined'){
+                                                                            var user_tag_config = {};
+                                                                        }
+                                                                        user_tag_config['ebound_header_tag'] = {};
+                                                                        user_tag_config['ebound_header_tag']['desktop'] = {};
+                                                                        user_tag_config['ebound_header_tag']['desktop']['cpm'] = '';
+                                                                        user_tag_config['ebound_header_tag']['desktop']['adsCode'] = '';
+                                                                        user_tag_config['ebound_header_tag']['tablet'] = {};
+                                                                        user_tag_config['ebound_header_tag']['tablet']['cpm'] = '';
+                                                                        user_tag_config['ebound_header_tag']['tablet']['adsCode'] = '';
+                                                                        user_tag_config['ebound_header_tag']['mobile'] = {};
+                                                                        user_tag_config['ebound_header_tag']['mobile']['cpm'] = '';
+                                                                        user_tag_config['ebound_header_tag']['mobile']['adsCode'] = '';
+                                                                        </script>-->
+                                                                    </div>
+                                                                    <br><br>
+                                                                    <div class="main-title-head">
+                                                                        <h3>Educacion</h3>
+                                                                        <a href="singlepage.html">Más +</a>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                    <div class="world-news-grids">
+                                                                        <div class="world-news-grid">
+                                                                            <img src="images\n1.jpg" alt="">
+                                                                            <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                            <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                            <a href="singlepage.html">Leer Más</a>
+                                                                        </div>
+                                                                        <div class="world-news-grid">
+                                                                            <img src="images\n2.jpg" alt="">
+                                                                            <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                            <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                            <a href="singlepage.html">Leer Más</a>
+                                                                        </div>
+                                                                        <div class="world-news-grid">
+                                                                            <img src="images\n3.jpg" alt="">
+                                                                            <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                            <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                            <a href="singlepage.html">Leer Más</a>
+                                                                        </div>
+                                                                        <div class="clearfix"></div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        
+                                                        <!---->
+                                                        <div class="posts">
+                                                            <div class="left-posts">
+                                                                    <div class="world-news">
+                                                                            <!---728x90-->
+                                                                        <!--<script src='//publisher.eboundservices.com/dynamicAds/dynamicScript.js'></script>
+                                                                        <div style='margin: 0 auto;text-align: center;margin-top: 5px;'>
+                                                                            <script>
+                                                                            var allowedNumberOfEboundDynamicAdds = 4;
+                                                                            var sizesEboundDynamicAdsDesktop = ['728x90'];
+                                                                            var sizesEboundDynamicAdsTablet = ['728x90'];
+                                                                            var sizesEboundDynamicAdsMobile = ['320x100'];
+                                                                            eboundAdsTagByDevice(sizesEboundDynamicAdsDesktop,sizesEboundDynamicAdsTablet,sizesEboundDynamicAdsMobile, 'ebound_header_tag');
+                                                                            
+                                                                            if(typeof user_tag_config == 'undefined'){
+                                                                                var user_tag_config = {};
+                                                                            }
+                                                                            user_tag_config['ebound_header_tag'] = {};
+                                                                            user_tag_config['ebound_header_tag']['desktop'] = {};
+                                                                            user_tag_config['ebound_header_tag']['desktop']['cpm'] = '';
+                                                                            user_tag_config['ebound_header_tag']['desktop']['adsCode'] = '';
+                                                                            user_tag_config['ebound_header_tag']['tablet'] = {};
+                                                                            user_tag_config['ebound_header_tag']['tablet']['cpm'] = '';
+                                                                            user_tag_config['ebound_header_tag']['tablet']['adsCode'] = '';
+                                                                            user_tag_config['ebound_header_tag']['mobile'] = {};
+                                                                            user_tag_config['ebound_header_tag']['mobile']['cpm'] = '';
+                                                                            user_tag_config['ebound_header_tag']['mobile']['adsCode'] = '';
+                                                                            </script>-->
+                                                                        </div>
+                                                                        <br><br>
+                                                                        <div class="main-title-head">
+                                                                            <h3>Seguridad</h3>
+                                                                            <a href="singlepage.html">Más +</a>
+                                                                            <div class="clearfix"></div>
+                                                                        </div>
+                                                                        <div class="world-news-grids">
+                                                                            <div class="world-news-grid">
+                                                                                <img src="images\n1.jpg" alt="">
+                                                                                <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                                <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                                <a href="singlepage.html">Leer Más</a>
+                                                                            </div>
+                                                                            <div class="world-news-grid">
+                                                                                <img src="images\n2.jpg" alt="">
+                                                                                <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                                <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                                <a href="singlepage.html">Leer Más</a>
+                                                                            </div>
+                                                                            <div class="world-news-grid">
+                                                                                <img src="images\n3.jpg" alt="">
+                                                                                <a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+                                                                                <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                                                                <a href="singlepage.html">Leer Más</a>
+                                                                            </div>
+                                                                            <div class="clearfix"></div>
+                                                                        </div>
+                                                                    </div>
+                                                            </div>
+                                                    
+                                                    
+                                                </div>
+                                                <br>
+                                                <div class="col-md-3 side-bar">
+                                                        <div class="popular">
+                                                                <div class="main-title-head">
+                                                                    <h5>Principales Noticias</h5>
+                                                                    
+                                                                    <div class="clearfix"></div>
+                                                                </div>		
+                                                                <div class="popular-news">
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy</i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy</i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy</i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy </i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy</i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <a class="more" href="singlepage.html">Mas Noticias</a>
+                                                                </div>
+                                                            </div>
+                                                            <br><br>
+                                                            <div class="popular">
+                                                                <div class="main-title-head">
+                                                                    <h5>popular</h5>
+                                                                    
+                                                                    <div class="clearfix"></div>
+                                                                </div>		
+                                                                <div class="popular-news">
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy</i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy</i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy</i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy </i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <div class="popular-grid">
+                                                                        <i>Hoy</i>
+                                                                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit  <a href="singlepage.html">Leer más</a></p>
+                                                                    </div>
+                                                                    <a class="more" href="singlepage.html">Mas Noticias</a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                </div>
+
+                                        </div>
+                                </div>	
+                            
+                        </div>
+                        <footer id="footer">
+                            <div class="footer_top">
+                              <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                  <div class="footer_widget wow fadeInLeftBig">
+                                    <h2>Redes Sociales</h2>
+
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                  <div class="footer_widget wow fadeInDown">
+                                    <h2>Secciones</h2>
+                                    <ul class="tag_nav">
+                                      <li><a href="#">Noticias</a></li>
+                                      <li><a href="#">Eventos</a></li>
+                                      <li><a href="#">Lugares</a></li>
+                                      <li><a href="#">Promociones</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                  <div class="footer_widget wow fadeInRightBig">
+                                    <h2>Categorias de Noticias</h2>
+                                    <ul class="tag_nav">
+                                        <li><a href="#">Nuevo</a></li>
+                                        <li><a href="#">Educacion</a></li>
+                                        <li><a href="#">Seguridad</a></li>
+                                        <li><a href="#">Economia</a></li>
+                                        <li><a href="#">Cultura</a></li>
+                                        <li><a href="#">Infraestructura</a></li>
+                                        <li><a href="#">Movilidad</a></li>
+                                        <li><a href="#">Deportes</a></li>
+                                        <li><a href="#">Salud</a></li>
+                                        <li><a href="#">Servicios Publicos</a></li>
+                                      </ul> 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="footer_bottom">
+
+                              <p class="developer">Lacharme S.A.S</p>
+                            </div>
+                          </footer>
+                    </div>
+            
+            </div>
+            
+        </div>
+ 
+    </body>
+</html>
